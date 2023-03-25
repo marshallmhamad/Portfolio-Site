@@ -1,15 +1,13 @@
 const initialState = {
-  language: "fr",
+  language: "kur",
 };
 
 function languageReducer(state = initialState, action) {
   switch (action.type) {
-    case "fr":
-      return { language: (state.language = "fr") };
+    case "kur":
+      return { language: (state.language = "kur") };
     case "en":
       return { language: (state.language = "en") };
-    case "ko":
-      return { language: (state.language = "ko") };
     default:
       return state;
   }

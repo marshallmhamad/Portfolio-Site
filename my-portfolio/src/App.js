@@ -50,21 +50,15 @@ function App() {
             <div className="box-btn">
               <div
                 className="btn btn-fr"
-                onClick={() => dispatch({ type: "fr" })}
+                onClick={() => dispatch({ type: "kur" })}
               >
-                <img src="../france.svg" alt="fr" width="30" heigh="20"></img>
+                <img src="../kurdish.png" alt="kur" width="30" heigh="20"></img>
               </div>
               <div
                 className="btn btn-en"
                 onClick={() => dispatch({ type: "en" })}
               >
-                <img src="../uk.svg" alt="fr" width="30" heigh="20"></img>
-              </div>
-              <div
-                className="btn btn-ko"
-                onClick={() => dispatch({ type: "ko" })}
-              >
-                <img src="../ko.svg" alt="ko" width="30" heigh="20"></img>
+                <img src="../US.png" alt="kur" width="30" heigh="20"></img>
               </div>
             </div>
           </li>
@@ -166,7 +160,7 @@ function App() {
           <div className="links">
             <a
               className="linkedin-btn"
-              href="https://www.linkedin.com/in/arnaud-rey-8a6695185/"
+              href="https://www.linkedin.com/in/marshallmhamad/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -174,7 +168,7 @@ function App() {
             </a>
             <a
               className="github-btn"
-              href="https://github.com/HorusCorp"
+              href="https://github.com/marshallmhamad"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -182,7 +176,7 @@ function App() {
             </a>
             <a
               className="cv-btn"
-              href="https://drive.google.com/file/d/1PijS4_bNqq4cuSaqHOimrGI_sCfcS42k/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1HiOzbCwy0RF51rzvS7ciCL1Judgzm82s?usp=sharing"
               download
             >
               {translation(lang, "cvbtn")}
@@ -192,7 +186,7 @@ function App() {
       </div>
 
       <div className="footer">
-        © 2020 Arnaud Rey - {translation(lang, "footer")}
+        Made by Marshall Mhamad at Bit BootCamp - {translation(lang, "footer")}
       </div>
     </div>
   );
