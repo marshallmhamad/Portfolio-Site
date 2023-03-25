@@ -7,12 +7,10 @@ function Portfolio() {
 
   const [page, SetPage] = useState("1");
 
-  // RESET LA POSITION QUAND LE COMPOSANT SE RECHARGE / CHANGEMENT DE PAGE
   useEffect(() => {
     window.scrollTo(0, 1100);
   }, [page]);
 
-  // RENDU DE BASE
   if (page === "1") {
     return (
       <div id="portfolio" className="portfolio">
@@ -20,7 +18,7 @@ function Portfolio() {
         <span className="titre-soustitre">
           {translation(lang, "soustitre03")}
         </span>
-        {/* PROJET PAGE 1-0   React Amulet */}
+        {}
         <div className="project">
           <img src="./resturant.png" alt="" width="520px" height="300px"></img>
           <div className="project-txt">

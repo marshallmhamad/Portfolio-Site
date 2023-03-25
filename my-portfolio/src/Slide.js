@@ -101,9 +101,7 @@ function SlideSunGYM() {
           alignItems: "center",
           justifyContent: "center",
         }}
-      >
-        Cliquez glisser pour faire défiler les slides du projets
-      </div>
+      ></div>
     </Swiper>
   );
 }
